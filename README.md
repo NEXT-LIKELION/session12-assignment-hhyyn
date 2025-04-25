@@ -17,19 +17,19 @@
 
 ## 📱 게임 화면
 ### 1. 메인 화면
-<img src="./readme_img/1.png" width="500" alt="메인 화면">
+<img src="./readme_img/1.png" width="200" alt="메인 화면">
 
 ### 2. 문제 화면
-<img src="./readme_img/2.png" width="500" alt="문제 화면">
+<img src="./readme_img/2.png" width="200" alt="문제 화면">
 
 ### 3. 여러 번 시도한 상황
-<img src="./readme_img/3.png" width="500" alt="여러 번 시도한 상황">
+<img src="./readme_img/3.png" width="200" alt="여러 번 시도한 상황">
 
 ### 4. 정답 화면
-<img src="./readme_img/4.png" width="500" alt="정답 화면">
+<img src="./readme_img/4.png" width="200" alt="정답 화면">
 
 ### 5. 게임 오버 화면
-<img src="./readme_img/5.png" width="500" alt="게임 오버 화면">
+<img src="./readme_img/5.png" width="200" alt="게임 오버 화면">
 
 
 
