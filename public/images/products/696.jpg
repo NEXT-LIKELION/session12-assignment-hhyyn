@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>[error] 장애페이지</title>
+    <link rel="shortcut icon" href="//img.wemep.co.kr/favicon_v01.ico" />
+    <link rel="stylesheet" href="//s.wemep.co.kr/ui/latest/dist/pc/css/pages/error.css" />
+</head>
+
+<body>
+
+<div class="error-wrap page-error">
+    <span class="ic-error ic-page-error"></span>
+    <h1 class="t-pageerror"><img src="//img.wemep.co.kr/images/resources_v2/front/error/tit_page_error.gif" alt="고객님께서 요청하신 페이지를 찾을 수 없습니다." /></h1>
+    <p class="tx-error"><img src="//img.wemep.co.kr/images/resources_v2/front/error/txt_page_error.gif" alt="쇼핑에 불편을 드려 죄송합니다. 잘못된 링크를 사용하셨거나 찾고 계시는 페이지가 존재하지 않습니다." /></p>
+    <div class="btnC">
+        <a href="//www.wemakeprice.com"><img src="//img.wemep.co.kr/images/resources_v2/front/error/btn_go_wmp.gif" alt="위메프 쇼핑하러 가기"></a>
+    </div>
+    <div style="display:none;">
+            HTTP STATUS - 404
+    </div>
+</div>
+
+</body>
+</html>
