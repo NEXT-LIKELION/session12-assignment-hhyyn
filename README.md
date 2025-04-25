@@ -48,29 +48,6 @@ price-guessing-game/
 └─ data/               # 제품 ID 및 게임 데이터
 ```
 
-## 🚀 설치 및 실행
-
-1. 저장소 클론
-```bash
-git clone https://github.com/yourusername/price-guessing-game.git
-cd price-guessing-game
-```
-
-2. 의존성 설치
-```bash
-npm install
-```
-
-3. 개발 서버 실행
-```bash
-npm run dev
-```
-
-4. 빌드
-```bash
-npm run build
-```
-
 ## 📊 데이터 출처
 
 - 한국소비자원_생필품 가격 정보 (공공데이터포털) 🛒
@@ -83,3 +60,7 @@ npm run build
 - 무효 데이터가 많아 랜덤으로 데이터를 가져오는 과정에서 로딩 시간이 과도하게 길어져 정상적인 게임 진행이 어려웠습니다 ⏱️
 - 이러한 문제를 해결하기 위해, 현재 데모 버전에서는 API에서 미리 가져온 몇천 개의 데이터를 전처리하여 사용하고 있습니다.
 - 추후 실시간 데이터 반영으로 업데이트할 예정입니다.
+
+## 🚧 개발 중인 기능
+
+- 랭킹 시스템 - 사용자들의 점수를 기록하고 비교할 수 있는 기능이 개발 중입니다 🏆
