@@ -15,7 +15,7 @@ function Intro({ onStart }) {
       <div className={styles.thumbnailWrapper}>
         <ImageSlider 
           images={productImages} 
-          folderPath="/images/products" 
+          folderPath="./images/products" 
         />
       </div>
       <Button className={styles.Button} onClick={onStart}>
