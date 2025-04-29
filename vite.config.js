@@ -1,5 +1,5 @@
-import path from "path"
-import { defineConfig } from 'vite'
+import path from "path" 
+import { defineConfig } from 'vite' 
 import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
@@ -16,8 +16,14 @@ export default defineConfig({
         target: 'http://openapi.price.go.kr',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
+      },
+      '/gscript': {
+        target: 'https://script.google.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/gscript/, ''),
+        secure: false,
       }
     }
   },
-  base : './' 
+  base : './'
 })

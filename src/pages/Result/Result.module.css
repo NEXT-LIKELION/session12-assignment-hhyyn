@@ -307,3 +307,57 @@
         transform: translateY(0);
     }
 }
+
+/* Result.module.css에 추가할 스타일 */
+
+/* API 에러 메시지 스타일 */
+.apiError {
+    color: #d32f2f;
+    background-color: rgba(211, 47, 47, 0.1);
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+/* 로딩 중 셀 스타일 */
+.loadingCell {
+    text-align: center;
+    padding: 30px 10px;
+    color: #666;
+    font-style: italic;
+}
+
+/* 데이터 없음 셀 스타일 */
+.emptyCell {
+    text-align: center;
+    padding: 30px 10px;
+    color: #666;
+}
+
+/* 로딩 중일 때 버튼 스타일 */
+.registerButton:disabled {
+    background-color: #e0e0e0;
+    color: #999;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* 로딩 중 애니메이션 효과 */
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.loadingCell {
+    animation: pulse 1.5s infinite ease-in-out;
+}

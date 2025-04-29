@@ -24,7 +24,7 @@ function QuestionHeader({ questionNumber, score, submittedGuess, correctPrice, l
         className="w-[60%]" 
       />
       
-      <LifeCounter life={life} maxLife={10} />
+      <LifeCounter life={life} maxLife={8} />
     </div>
   );
 }

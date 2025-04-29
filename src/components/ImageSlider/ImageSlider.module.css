@@ -1,0 +1,72 @@
+/* src/components/ImageSlider/ImageSlider.module.css */
+
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  /* Setting a fixed aspect ratio with padding technique */
+  padding-top: 100%; /* 1:1 aspect ratio (square) */
+  overflow: hidden;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This maintains aspect ratio while filling the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slideOut {
+  animation: slideToLeft 0.5s forwards;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  color: #777;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes slideToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Animation for new images appearing */
+.slider:not(.slideOut) {
+  animation: slideFromRight 0.5s;
+}

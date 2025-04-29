@@ -9,7 +9,8 @@
   flex-direction: row; /* 가로 방향으로 정렬 */
   flex-wrap: wrap; /* 공간이 부족하면 여러 줄로 표시 */
   justify-content: space-between; /* 요소들을 양쪽 끝으로 분산 배치 */
-  width: 100%; /* 부모 컨테이너의 전체 너비를 차지 */
+  width: 90%; /* 부모 컨테이너의 전체 너비를 차지 */
+  align-self: center;
 }
 
 .heart {
